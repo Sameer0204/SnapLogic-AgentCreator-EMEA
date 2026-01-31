@@ -1,0 +1,643 @@
+{
+    "ai_map": {
+        "footprint": "H4sIAAAAAAAAA8srzckBAE/8yyUEAAAA"
+    },
+    "class_id": "com-snaplogic-pipeline",
+    "class_version": 9,
+    "link_map": {
+        "link101": {
+            "dst_id": "11111111-1111-1111-1111-000000000004",
+            "dst_view_id": "input0",
+            "src_id": "11111111-1111-1111-1111-000000000003",
+            "src_view_id": "output0"
+        },
+        "link103": {
+            "dst_id": "11111111-1111-1111-1111-000000000003",
+            "dst_view_id": "input0",
+            "src_id": "11111111-1111-1111-1111-000000000001",
+            "src_view_id": "output0"
+        }
+    },
+    "property_map": {
+        "error": {
+            "error_behavior": {
+                "value": "none"
+            }
+        },
+        "info": {
+            "author": {
+                "value": "sameerasalamshaikh@gmail.com"
+            },
+            "label": {},
+            "notes": {
+                "value": null
+            },
+            "pipeline_doc_uri": {
+                "value": null
+            },
+            "purpose": {
+                "value": null
+            }
+        },
+        "input": {
+            "11111111-1111-1111-1111-000000000001_input0": {
+                "label": {
+                    "value": "Multi Pipeline Function Generator - input0"
+                },
+                "view_type": {
+                    "value": "document"
+                }
+            }
+        },
+        "output": {
+            "11111111-1111-1111-1111-000000000004_output0": {
+                "label": {
+                    "value": "Amazon Bedrock Converse API Agent - LLM Base response"
+                },
+                "view_type": {
+                    "value": "document"
+                }
+            }
+        },
+        "settings": {
+            "cache_pipelines": {
+                "value": []
+            },
+            "error_param_table": {
+                "value": []
+            },
+            "error_pipeline": {
+                "expression": false,
+                "value": null
+            },
+            "imports": {
+                "value": []
+            },
+            "param_table": {
+                "value": []
+            },
+            "suspendable": {
+                "value": false
+            },
+            "test_pipeline": {
+                "value": false
+            }
+        }
+    },
+    "render_map": {
+        "default_snaplex": null,
+        "detail_map": {
+            "11111111-1111-1111-1111-000000000000": {
+                "error": {},
+                "grid_x_int": 3,
+                "grid_y_int": 3,
+                "index": null,
+                "input": {},
+                "output": {},
+                "recommendation_id": null,
+                "rot_int": 0,
+                "rot_tail_int": 0,
+                "source": "snap catagory"
+            },
+            "11111111-1111-1111-1111-000000000001": {
+                "error": {},
+                "grid_x_int": 5,
+                "grid_y_int": 2,
+                "index": null,
+                "input": {},
+                "output": {},
+                "recommendation_id": null,
+                "rot_int": 0,
+                "rot_tail_int": 0,
+                "source": ""
+            },
+            "11111111-1111-1111-1111-000000000002": {
+                "error": {},
+                "grid_x_int": 5,
+                "grid_y_int": 3,
+                "index": null,
+                "input": {},
+                "output": {},
+                "recommendation_id": null,
+                "rot_int": 0,
+                "rot_tail_int": 0,
+                "source": "snap catagory"
+            },
+            "11111111-1111-1111-1111-000000000003": {
+                "error": {},
+                "grid_x_int": 6,
+                "grid_y_int": 2,
+                "index": null,
+                "input": {},
+                "output": {},
+                "recommendation_id": null,
+                "rot_int": 0,
+                "rot_tail_int": 0,
+                "source": "snap catagory"
+            },
+            "11111111-1111-1111-1111-000000000004": {
+                "error": {},
+                "grid_x_int": 7,
+                "grid_y_int": 2,
+                "index": null,
+                "input": {},
+                "output": {},
+                "recommendation_id": null,
+                "rot_int": 0,
+                "rot_tail_int": 0,
+                "source": "snap catagory"
+            }
+        },
+        "pan_x_num": 0,
+        "pan_y_num": 0,
+        "scale_ratio": 1
+    },
+    "snap_map": {
+        "11111111-1111-1111-1111-000000000000": {
+            "class_id": "com-snaplogic-snaps-llmutils-pipelinestofunctions",
+            "class_version": 1,
+            "instance_id": "11111111-1111-1111-1111-000000000000",
+            "property_map": {
+                "error": {
+                    "error0": {
+                        "label": {
+                            "value": "error0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    },
+                    "error_behavior": {
+                        "value": "fail"
+                    }
+                },
+                "info": {
+                    "label": {
+                        "value": "Multi Pipeline Function Generator"
+                    },
+                    "notes": {}
+                },
+                "input": {
+                    "input0": {
+                        "label": {
+                            "value": "input0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    }
+                },
+                "output": {
+                    "output0": {
+                        "label": {
+                            "value": "output0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    }
+                },
+                "settings": {
+                    "aggregateInput": {
+                        "value": false
+                    },
+                    "aggregatedPipelinePath": {
+                        "expression": true,
+                        "value": null
+                    },
+                    "aggregatedStrictMode": {
+                        "expression": false,
+                        "value": false
+                    },
+                    "execution_mode": {
+                        "value": "Disabled"
+                    },
+                    "pipelineSection": {
+                        "value": [
+                            {
+                                "pipelinePath": {
+                                    "expression": false,
+                                    "value": "SL_RuntimeAPI_to_retrieve_info_PE"
+                                },
+                                "strictMode": {
+                                    "expression": false,
+                                    "value": false
+                                }
+                            },
+                            {
+                                "pipelinePath": {
+                                    "expression": false,
+                                    "value": "Confluence_Page_Creation"
+                                },
+                                "strictMode": {
+                                    "expression": false,
+                                    "value": false
+                                }
+                            },
+                            {
+                                "pipelinePath": {
+                                    "expression": false,
+                                    "value": "Notify_By_Email"
+                                },
+                                "strictMode": {
+                                    "expression": false,
+                                    "value": false
+                                }
+                            }
+                        ]
+                    }
+                },
+                "view_serial": 100
+            }
+        },
+        "11111111-1111-1111-1111-000000000001": {
+            "class_id": "com-snaplogic-snaps-llmutils-pipelinestofunctions",
+            "class_version": 1,
+            "instance_id": "11111111-1111-1111-1111-000000000001",
+            "property_map": {
+                "error": {
+                    "error0": {
+                        "label": {
+                            "value": "error0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    },
+                    "error_behavior": {
+                        "value": "fail"
+                    }
+                },
+                "info": {
+                    "label": {
+                        "value": "Multi Pipeline Function Generator"
+                    },
+                    "notes": {}
+                },
+                "input": {
+                    "input0": {
+                        "label": {
+                            "value": "input0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    }
+                },
+                "output": {
+                    "output0": {
+                        "label": {
+                            "value": "output0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    }
+                },
+                "settings": {
+                    "aggregateInput": {
+                        "value": false
+                    },
+                    "aggregatedPipelinePath": {
+                        "expression": true,
+                        "value": null
+                    },
+                    "aggregatedStrictMode": {
+                        "expression": false,
+                        "value": false
+                    },
+                    "execution_mode": {
+                        "value": "Validate & Execute"
+                    },
+                    "pipelineSection": {
+                        "value": [
+                            {
+                                "pipelinePath": {
+                                    "expression": false,
+                                    "value": "Metadata_Extraction_Pipeline"
+                                },
+                                "strictMode": {
+                                    "expression": false,
+                                    "value": false
+                                }
+                            },
+                            {
+                                "pipelinePath": {
+                                    "expression": false,
+                                    "value": "Confluence_Page_Creation"
+                                },
+                                "strictMode": {
+                                    "expression": false,
+                                    "value": false
+                                }
+                            },
+                            {
+                                "pipelinePath": {
+                                    "expression": false,
+                                    "value": "Notify_By_Email"
+                                },
+                                "strictMode": {
+                                    "expression": false,
+                                    "value": false
+                                }
+                            }
+                        ]
+                    }
+                },
+                "view_serial": 100
+            }
+        },
+        "11111111-1111-1111-1111-000000000002": {
+            "class_id": "com-snaplogic-snaps-transform-jsongenerator",
+            "class_version": 2,
+            "instance_id": "11111111-1111-1111-1111-000000000002",
+            "property_map": {
+                "error": {
+                    "error0": {
+                        "label": {
+                            "value": "error0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    },
+                    "error_behavior": {
+                        "value": "fail"
+                    }
+                },
+                "info": {
+                    "label": {
+                        "value": "JSON Generator"
+                    },
+                    "notes": {}
+                },
+                "input": {
+                    "input101": {
+                        "label": {
+                            "value": "input0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    }
+                },
+                "output": {
+                    "output0": {
+                        "label": {
+                            "value": "output0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    }
+                },
+                "settings": {
+                    "arrayElementsAsDocuments": {
+                        "value": true
+                    },
+                    "editable_content": {
+                        "value": "[\n  { \n    \"entity\": {\n      \"response_map\": {\n        \"complete_report\": [\n          {\n            \"key\": 1,\n            \"name\": \"No Notes\",\n            \"description\": \"Pipeline does not have notes\",\n            \"message_level\": \"Warning\",\n            \"disabled\": false,\n            \"score\": 1\n          },\n          {\n            \"key\": 2,\n            \"name\": \"Bad characters in the Name (Label)\",\n            \"description\": \"Pipeline has bad characters in the name/label\",\n            \"message_level\": \"Warning\",\n            \"disabled\": false,\n            \"score\": 1\n          },\n          {\n            \"key\": 3,\n            \"name\": \"No Error Handling\",\n            \"description\": \"Pipeline does not have error handling\",\n            \"message_level\": \"Warning\",\n            \"disabled\": false,\n            \"score\": 1\n          },\n          {\n            \"key\": 4,\n            \"name\": \"Use of duplicate Snap Labels\",\n            \"description\": \"Pipeline has use of duplicate Snap labels\",\n            \"message_level\": \"Critical\",\n            \"disabled\": false,\n            \"score\": 1\n          },\n          {\n            \"key\": 5,\n            \"name\": \"More than 1 unlinked Output View\",\n            \"description\": \"Pipeline does not have more than 1 unlinked Output View\",\n            \"message_level\": \"Info\",\n            \"disabled\": false,\n            \"score\": 1\n          },\n          {\n            \"key\": 6,\n            \"name\": \"Presence of disabled Snaps\",\n            \"description\": \"Pipeline has presence of disabled Snaps\",\n            \"message_level\": \"Critical\",\n            \"disabled\": false,\n            \"score\": 1\n          },\n          {\n            \"key\": 7,\n            \"name\": \"Child Pipelines do not conform to standard naming convention\",\n            \"description\": \"Child Pipelines do not conform to standard naming convention\",\n            \"message_level\": \"Warning\",\n            \"disabled\": false,\n            \"score\": 1\n          },\n          {\n            \"key\": 8,\n            \"name\": \"Expression libraries have bad/unsupported naming conventions\",\n            \"description\": null,\n            \"message_level\": null,\n            \"disabled\": true,\n            \"score\": 1\n          },\n          {\n            \"key\": 9,\n            \"name\": \"Too many (>50) snaps\",\n            \"description\": \"Pipeline does not have too many (>50) snaps\",\n            \"message_level\": \"Info\",\n            \"disabled\": false,\n            \"score\": 1\n          },\n          {\n            \"key\": 10,\n            \"name\": \"Exceeds the Max Snap Count of 100\",\n            \"description\": \"Pipeline has not exceeded the Max Snap Count of 100\",\n            \"message_level\": \"Info\",\n            \"disabled\": false,\n            \"score\": 1\n          },\n          {\n            \"key\": 11,\n            \"name\": \"Too many (>5) go-to links\",\n            \"description\": null,\n            \"message_level\": null,\n            \"disabled\": true,\n            \"score\": 1\n          },\n          {\n            \"key\": 12,\n            \"name\": \"Aggregate Snap is using unsorted input\",\n            \"description\": null,\n            \"message_level\": null,\n            \"disabled\": true,\n            \"score\": 1\n          },\n          {\n            \"key\": 13,\n            \"name\": \"Mapper Snap contains target path names that are non-standard\",\n            \"description\": \"Mapper Snap contains target path names that are standard\",\n            \"message_level\": \"Info\",\n            \"disabled\": false,\n            \"score\": 1\n          },\n          {\n            \"key\": 14,\n            \"name\": \"Binary To Document Snap used in the pipeline\",\n            \"description\": \"Binary To Document Snap not used in the pipeline\",\n            \"message_level\": \"Info\",\n            \"disabled\": false,\n            \"score\": 1\n          },\n          {\n            \"key\": 15,\n            \"name\": \"Mapper Snap may contain nested ternary statements\",\n            \"description\": \"Mapper Snap does not contain nested ternary statements\",\n            \"message_level\": \"Info\",\n            \"disabled\": false,\n            \"score\": 1\n          },\n          {\n            \"key\": 16,\n            \"name\": \"Custom Snap usage detected in the pipeline\",\n            \"description\": \"No Custom Snap found in the pipeline\",\n            \"message_level\": \"Info\",\n            \"disabled\": false,\n            \"score\": 1\n          },\n          {\n            \"key\": 17,\n            \"name\": \"Mapper Snap contains call to Date.now()\",\n            \"description\": \"Mapper Snap does not contain call to Date.now()\",\n            \"message_level\": \"Info\",\n            \"disabled\": false,\n            \"score\": 1\n          },\n          {\n            \"key\": 18,\n            \"name\": \"Snap label has not been significantly changed from default (Example: Mapper1, Copy3)\",\n            \"description\": \"Snap label has not been significantly changed from default (Example: Mapper1, Copy3)\",\n            \"message_level\": \"Warning\",\n            \"disabled\": false,\n            \"score\": 1\n          },\n          {\n            \"key\": 19,\n            \"name\": \"Deprecated Snap used in the pipeline\",\n            \"description\": \"Deprecated Snap is not used in the pipeline\",\n            \"message_level\": \"Info\",\n            \"disabled\": false,\n            \"score\": 1\n          },\n          {\n            \"key\": 20,\n            \"name\": \"File Writer Snap is present in the pipeline\",\n            \"description\": \"File Writer Snap is not present the pipeline\",\n            \"message_level\": \"Info\",\n            \"disabled\": false,\n            \"score\": 1\n          },\n          {\n            \"key\": 21,\n            \"name\": \"Gate Snap is present the pipeline\",\n            \"description\": \"Gate Snap is not present the pipeline\",\n            \"message_level\": \"Info\",\n            \"disabled\": false,\n            \"score\": 1\n          },\n          {\n            \"key\": 22,\n            \"name\": \"Group By N Snap configured with Group Size 0 is present in the pipeline\",\n            \"description\": null,\n            \"message_level\": null,\n            \"disabled\": true,\n            \"score\": 1\n          },\n          {\n            \"key\": 23,\n            \"name\": \"Group By Fields Snap is present the pipeline\",\n            \"description\": \"Group By Fields Snap is not present the pipeline\",\n            \"message_level\": \"Info\",\n            \"disabled\": false,\n            \"score\": 1\n          },\n          {\n            \"key\": 24,\n            \"name\": \"Group By N Snap configured with large Group Size value\",\n            \"description\": null,\n            \"message_level\": null,\n            \"disabled\": true,\n            \"score\": 1\n          },\n          {\n            \"key\": 25,\n            \"name\": \"In-Memory Lookup Snap is present the pipeline\",\n            \"description\": \"In-Memory Lookup Snap is not present the pipeline\",\n            \"message_level\": \"Info\",\n            \"disabled\": false,\n            \"score\": 1\n          },\n          {\n            \"key\": 26,\n            \"name\": \"Join Snap is using unsorted input\",\n            \"description\": null,\n            \"message_level\": null,\n            \"disabled\": true,\n            \"score\": 1\n          },\n          {\n            \"key\": 27,\n            \"name\": \"Snap \\\"Info\\\" tab / \\\"Notes\\\" section should not be empty\",\n            \"description\": \"Snap \\\"Info\\\" tab / \\\"Notes\\\" section should not be empty\",\n            \"message_level\": \"Warning\",\n            \"disabled\": false,\n            \"score\": 1\n          },\n          {\n            \"key\": 28,\n            \"name\": \"Snap \\\"Info\\\" tab \\\"Notes\\\" section content is too similar to the Snap label or default Snap label\",\n            \"description\": null,\n            \"message_level\": null,\n            \"disabled\": true,\n            \"score\": 1\n          },\n          {\n            \"key\": 29,\n            \"name\": \"Pipeline executed by Pipeline Execute should be prefixed\",\n            \"description\": \"Pipeline executed by Pipeline Execute should be prefixed; for example, with \\\"z_\\\", \\\"ch_\\\", or \\\"sub_\\\" to identify it as a child pipeline\",\n            \"message_level\": \"Warning\",\n            \"disabled\": false,\n            \"score\": 1\n          },\n          {\n            \"key\": 30,\n            \"name\": \"Pipeline Execute Snap label should be similar to the pipeline executed\",\n            \"description\": \"Pipeline Execute Snap label should be similar to the pipeline executed to make it easy to identify\",\n            \"message_level\": \"Warning\",\n            \"disabled\": false,\n            \"score\": 1\n          },\n          {\n            \"key\": 31,\n            \"name\": \"Pipeline executed by Pipeline Execute should have a name similar to the calling pipeline\",\n            \"description\": \"Pipeline executed by Pipeline Execute should have a name similar to the calling pipeline to make them easy to associate\",\n            \"message_level\": \"Warning\",\n            \"disabled\": false,\n            \"score\": 1\n          },\n          {\n            \"key\": 32,\n            \"name\": \"Pipeline is calling a child via Pipeline Execute and should be prefixed\",\n            \"description\": \"The pipeline is calling a child via Pipeline Execute and should be prefixed; for example, with \\\"p_\\\", \\\"ex_\\\", or \\\"main_\\\" to identify it as a parent (executor / main) pipeline\",\n            \"message_level\": \"Warning\",\n            \"disabled\": false,\n            \"score\": 1\n          },\n          {\n            \"key\": 33,\n            \"name\": \"Pipeline is calling a child via Pipeline Execute and should be suffixed\",\n            \"description\": \"The pipeline is calling a child via Pipeline Execute and should be suffixed; for example, with \\\"_Executor\\\" or \\\"_Main\\\" to identify it as a parent (executor / main) pipeline\",\n            \"message_level\": \"Warning\",\n            \"disabled\": false,\n            \"score\": 1\n          },\n          {\n            \"key\": 34,\n            \"name\": \"Execution Label setting in the Pipeline Execute Snap is too similar to the pipeline name being called\",\n            \"description\": \"Execution Label setting in the Pipeline Execute snap is too similar to the pipeline name being called - this is redundant when viewed in Dashboard\",\n            \"message_level\": \"Warning\",\n            \"disabled\": false,\n            \"score\": 1\n          },\n          {\n            \"key\": 35,\n            \"name\": \"Pipeline Execute Snap appears to be recursively calling the executing pipeline\",\n            \"description\": \"Pipeline Execute Snap does not recursively call the executing pipeline\",\n            \"message_level\": \"Info\",\n            \"disabled\": false,\n            \"score\": 1\n          },\n          {\n            \"key\": 36,\n            \"name\": \"Pipeline Execute Snap is configured with \\\"Execute On\\\" as SNAPLEX_WITH_PATH and \\\"Snaplex Path\\\" as \\\"pipe.plexPath\\\"\",\n            \"description\": \"Pipeline Execute Snap is not configured with \\\"Execute On\\\" as SNAPLEX_WITH_PATH or \\\"Snaplex Path\\\" as \\\"pipe.plexPath\\\"\",\n            \"message_level\": \"Info\",\n            \"disabled\": false,\n            \"score\": 1\n          },\n          {\n            \"key\": 37,\n            \"name\": \"Record Replay Snap is present in the pipeline\",\n            \"description\": \"Record Replay Snap is not present in the pipeline\",\n            \"message_level\": \"Info\",\n            \"disabled\": false,\n            \"score\": 1\n          },\n          {\n            \"key\": 38,\n            \"name\": \"Script Snap is present in the pipeline\",\n            \"description\": \"Script Snap is not present in the pipeline\",\n            \"message_level\": \"Info\",\n            \"disabled\": false,\n            \"score\": 1\n          },\n          {\n            \"key\": 39,\n            \"name\": \"Sort Snap configured with \\\"Maximum memory %\\\" greater than 10%\",\n            \"description\": null,\n            \"message_level\": null,\n            \"disabled\": true,\n            \"score\": 1\n          },\n          {\n            \"key\": 40,\n            \"name\": \"Snap represents a pipeline that has been \\\"nested\\\" into the current pipeline\",\n            \"description\": \"Snap represents a pipeline that has not been \\\"nested\\\" into the current pipeline\",\n            \"message_level\": \"Info\",\n            \"disabled\": false,\n            \"score\": 1\n          },\n          {\n            \"key\": 41,\n            \"name\": \"Mapper Snap is not using \\\"Pass through\\\" and is configured with more than 40 entries\",\n            \"description\": \"Mapper Snap is using \\\"Pass through\\\" or is configured with less than 40 entries\",\n            \"message_level\": \"Info\",\n            \"disabled\": false,\n            \"score\": 1\n          },\n          {\n            \"key\": 42,\n            \"name\": \"XML Parser Snap is being used without the \\\"Splitter\\\" property being enabled\",\n            \"description\": null,\n            \"message_level\": null,\n            \"disabled\": true,\n            \"score\": 1\n          }\n        ]\n      },\n      \"http_status_code\": 200\n    },\n    \"original\": {\n      \"entity\": {\n        \"doc_link\": null,\n        \"purpose\": null,\n        \"notes\": null,\n        \"params\": {\n\n        },\n        \"operational_data\": {\n          \"total_executions\": 0,\n          \"stopped_executions\": 0,\n          \"successful_executions\": 0,\n          \"failed_executions\": 0,\n          \"execution_failure_rate\": 0.0,\n          \"average_duration_ms\": 0,\n          \"average_docs_processed\": 0\n        },\n        \"last_run_node_label\": null,\n        \"total_number_of_snaps\": 4,\n        \"number_of_snaps_with_endpoint\": 4,\n        \"number_of_snaps_without_endpoint\": 0,\n        \"name\": \"AI_Agent_Text_to_Speech\",\n        \"path\": \"ConnectFasterInc/snapLogic4snapLogic/Sameer Shaikh\",\n        \"pipeline_id\": \"75120d7c-aaea-4b5c-ab10-0083d77e023f\",\n        \"snode_id\": \"68b0877bb3e5323f629a4622\",\n        \"created_by\": \"sameerasalamshaikh@gmail.com\",\n        \"updated_by\": \"sameerasalamshaikh@gmail.com\",\n        \"last_run_status\": null,\n        \"created_at\": \"2025-08-28T16:44:43.791Z\",\n        \"updated_at\": \"2025-09-29T10:21:47.286Z\",\n        \"pipeline_type\": null,\n        \"last_run_date\": null,\n        \"sources\": [\n          {\n            \"name\": \"Binary\"\n          }\n        ],\n        \"targets\": [\n\n        ],\n        \"custom_metadata\": {\n\n        }\n      },\n      \"original\": {\n        \"pipeline_id\": \"75120d7c-aaea-4b5c-ab10-0083d77e023f\",\n        \"snode_id\": \"68b0877bb3e5323f629a4622\",\n        \"pipeline_name\": \"AI_Agent_Text_to_Speech\",\n        \"project_path\": \"ConnectFasterInc/snapLogic4snapLogic/Sameer Shaikh\",\n        \"created_date\": \"2025-08-28T16:44:43.791Z\",\n        \"last_modified\": null,\n        \"status\": \"finished\",\n        \"owner\": \"sameerasalamshaikh@gmail.com\",\n        \"formatted_info\": \"Pipeline: AI_Agent_Text_to_Speech (ID: 75120d7c-aaea-4b5c-ab10-0083d77e023f)\",\n        \"created_formatted\": \"8/28/25, 4:44:43 PM\",\n        \"modified_formatted\": null\n      },\n      \"pipeline_id\": \"75120d7c-aaea-4b5c-ab10-0083d77e023f\",\n      \"pipeline_name\": \"AI_Agent_Text_to_Speech\",\n      \"pipeline_path\": \"ConnectFasterInc/snapLogic4snapLogic/Sameer Shaikh\"\n    }\n  }\n]"
+                    },
+                    "execution_mode": {
+                        "value": "Disabled"
+                    },
+                    "passThroughProp": {
+                        "value": false
+                    },
+                    "supportTypeExts": {
+                        "value": false
+                    }
+                },
+                "view_serial": 101
+            }
+        },
+        "11111111-1111-1111-1111-000000000003": {
+            "class_id": "com-snaplogic-snaps-awsbedrock-awsbedrockpromptgenerator",
+            "class_version": 1,
+            "instance_id": "11111111-1111-1111-1111-000000000003",
+            "property_map": {
+                "error": {
+                    "error0": {
+                        "label": {
+                            "value": "error0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    },
+                    "error_behavior": {
+                        "value": "fail"
+                    }
+                },
+                "info": {
+                    "label": {
+                        "value": "Amazon Bedrock Prompt Generator"
+                    },
+                    "notes": {}
+                },
+                "input": {
+                    "input0": {
+                        "label": {
+                            "value": "input0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    }
+                },
+                "output": {
+                    "output0": {
+                        "label": {
+                            "value": "output0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    }
+                },
+                "settings": {
+                    "advancedMode": {
+                        "value": true
+                    },
+                    "content": {
+                        "expression": true,
+                        "value": null
+                    },
+                    "editable_content": {
+                        "value": "<objective>\r\nCreate comprehensive SnapLogic pipeline documentation in rich HTML format for the Metadata_Extraction_Pipeline, then automatically publish the generated report to Confluence (SP space key) and send a copy via email to sameerasalamshaikh@gmail.com.\r\n</objective>\r\n\r\n<format>\r\nGenerate HTML documentation with the following structure:\r\n- Header section with pipeline name and overview\r\n- Key information highlights using colored boxes or badges\r\n- Detailed sections with proper headings and subheadings\r\n- Visual elements like tables, lists, and emphasis formatting\r\n- Professional styling with consistent formatting\r\n</format>\r\n\r\n<steps>\r\n1. Parse the Metadata_Extraction_Pipeline data to extract all relevant information\r\n2. Create structured HTML documentation including:\r\n   - Pipeline title as main heading with timestamp\r\n   - Executive summary highlighting pipeline purpose and scope\r\n   - Key metrics and specifications in highlighted information boxes\r\n   - Detailed configuration tables showing snaps, connections, and settings\r\n   - Data flow diagrams or process descriptions\r\n   - Performance metrics and execution statistics\r\n   - Error handling and monitoring information\r\n   - Dependencies and related components\r\n3. Apply consistent HTML styling with inline CSS for professional appearance\r\n4. Prepare the document for Confluence publication:\r\n   - Format according to Confluence HTML standards\r\n   - Include proper page title and metadata\r\n   - Add navigation elements if needed\r\n5. Configure email delivery:\r\n   - Create professional email subject line with pipeline name and date\r\n   - Format HTML content for email compatibility\r\n   - Include executive summary in email body\r\n6. Execute publication and delivery:\r\n   - Publish to Confluence SP space with appropriate permissions\r\n   - Send formatted email to sameerasalamshaikh@gmail.com\r\n   - Include Confluence page link in the email\r\n</steps>\r\n\r\n<tone>\r\nProfessional and technical, suitable for enterprise documentation and executive communication.\r\n</tone>\r\n\r\n<constraints>\r\n- Use only standard HTML tags and inline CSS for cross-platform compatibility\r\n- Ensure document is accessible in both Confluence and email formats\r\n- Include timestamp and version information\r\n- Maintain data security and access controls during publication\r\n- Verify email delivery and Confluence publication success\r\n</constraints>\r\n\r\n<delivery_requirements>\r\n- Confluence Space Key: SP\r\n- Email Recipient: sameerasalamshaikh@gmail.com\r\n- Include direct link to published Confluence page in email\r\n- Ensure both deliverables contain identical content\r\n</delivery_requirements>"
+                    },
+                    "execution_mode": {
+                        "value": "Validate & Execute"
+                    },
+                    "promptTemplate": {
+                        "value": "Context Q & A"
+                    },
+                    "role": {
+                        "expression": false,
+                        "value": "USER"
+                    }
+                },
+                "view_serial": 100
+            }
+        },
+        "11111111-1111-1111-1111-000000000004": {
+            "class_id": "com-snaplogic-snaps-awsbedrock-awsconverseagent",
+            "class_version": 1,
+            "instance_id": "11111111-1111-1111-1111-000000000004",
+            "property_map": {
+                "account": {
+                    "account_ref": {
+                        "value": {
+                            "label": {
+                                "expression": false,
+                                "label": "../shared/sedemo-bedrock-us-east-1_RECOMMENDED",
+                                "value": "sedemo-bedrock-us-east-1_RECOMMENDED"
+                            },
+                            "ref_class_id": {
+                                "value": "com-snaplogic-snaps-awsbedrock-awsbedrockaccount"
+                            },
+                            "ref_id": {
+                                "expression": false,
+                                "value": null
+                            }
+                        }
+                    }
+                },
+                "error": {
+                    "error0": {
+                        "label": {
+                            "value": "error0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    },
+                    "error_behavior": {
+                        "value": "fail"
+                    }
+                },
+                "info": {
+                    "label": {
+                        "value": "Amazon Bedrock Converse API Agent"
+                    },
+                    "notes": {}
+                },
+                "input": {
+                    "input0": {
+                        "label": {
+                            "value": "input0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    }
+                },
+                "output": {
+                    "output0": {
+                        "label": {
+                            "value": "LLM Base response"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    }
+                },
+                "settings": {
+                    "advancedPromptConfiguration": {
+                        "value": {
+                            "cacheSystem": {
+                                "expression": false,
+                                "value": false
+                            }
+                        }
+                    },
+                    "advancedToolConfiguration": {
+                        "value": {
+                            "cacheTool": {
+                                "expression": false,
+                                "value": false
+                            },
+                            "functionName": {
+                                "expression": true,
+                                "value": null
+                            },
+                            "toolChoice": {
+                                "expression": false,
+                                "value": "AUTO"
+                            }
+                        }
+                    },
+                    "agentExecutionConfiguration": {
+                        "value": {
+                            "iterationLimit": {
+                                "expression": false,
+                                "value": 10
+                            },
+                            "monitorToolCall": {
+                                "value": true
+                            },
+                            "parallelism": {
+                                "expression": false,
+                                "value": 1
+                            },
+                            "reusePipeline": {
+                                "value": false
+                            }
+                        }
+                    },
+                    "execution_mode": {
+                        "value": "Validate & Execute"
+                    },
+                    "includeCrossRegionModels": {
+                        "value": true
+                    },
+                    "messagePayload": {
+                        "expression": true,
+                        "value": "$messages"
+                    },
+                    "modelName": {
+                        "expression": false,
+                        "value": "global.anthropic.claude-haiku-4-5-20251001-v1:0"
+                    },
+                    "modelParameters": {
+                        "value": {
+                            "budgetTokens": {
+                                "expression": false,
+                                "value": null
+                            },
+                            "maximumTokens": {
+                                "expression": false,
+                                "value": null
+                            },
+                            "stopSequences": {
+                                "expression": false,
+                                "value": null
+                            },
+                            "temperature": {
+                                "expression": false,
+                                "value": null
+                            },
+                            "thinking": {
+                                "expression": false,
+                                "value": false
+                            },
+                            "topP": {
+                                "expression": false,
+                                "value": null
+                            }
+                        }
+                    },
+                    "systemPrompt": {
+                        "expression": true,
+                        "value": null
+                    },
+                    "toolPayload": {
+                        "expression": true,
+                        "value": "$original.tools"
+                    }
+                },
+                "view_serial": 100
+            }
+        }
+    }
+}

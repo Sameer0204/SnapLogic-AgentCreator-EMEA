@@ -1,0 +1,1266 @@
+{
+    "ai_map": {
+        "footprint": "H4sIAAAAAAAAA8srzckBAE/8yyUEAAAA"
+    },
+    "class_id": "com-snaplogic-pipeline",
+    "class_version": 9,
+    "link_map": {
+        "link108": {
+            "dst_id": "11111111-1111-1111-1111-000000000001",
+            "dst_view_id": "input0",
+            "src_id": "11111111-1111-1111-1111-000000000000",
+            "src_view_id": "output0"
+        },
+        "link109": {
+            "dst_id": "11111111-1111-1111-1111-000000000005",
+            "dst_view_id": "input0",
+            "src_id": "11111111-1111-1111-1111-000000000004",
+            "src_view_id": "output0"
+        },
+        "link110": {
+            "dst_id": "11111111-1111-1111-1111-000000000007",
+            "dst_view_id": "input0",
+            "src_id": "11111111-1111-1111-1111-000000000005",
+            "src_view_id": "outputResponse"
+        },
+        "link112": {
+            "dst_id": "11111111-1111-1111-1111-000000000008",
+            "dst_view_id": "input1",
+            "src_id": "11111111-1111-1111-1111-000000000007",
+            "src_view_id": "output0"
+        },
+        "link114": {
+            "dst_id": "11111111-1111-1111-1111-000000000008",
+            "dst_view_id": "input0",
+            "src_id": "11111111-1111-1111-1111-000000000006",
+            "src_view_id": "output0"
+        },
+        "link115": {
+            "dst_id": "11111111-1111-1111-1111-000000000006",
+            "dst_view_id": "input0",
+            "src_id": "11111111-1111-1111-1111-000000000005",
+            "src_view_id": "error0"
+        },
+        "link118": {
+            "dst_id": "11111111-1111-1111-1111-000000000004",
+            "dst_view_id": "input101",
+            "src_id": "11111111-1111-1111-1111-000000000001",
+            "src_view_id": "output0"
+        }
+    },
+    "property_map": {
+        "error": {
+            "error_behavior": {
+                "value": "none"
+            }
+        },
+        "info": {
+            "author": {
+                "value": "sameerasalamshaikh@gmail.com"
+            },
+            "label": {},
+            "notes": {
+                "value": null
+            },
+            "pipeline_doc_uri": {
+                "value": null
+            },
+            "purpose": {
+                "value": null
+            }
+        },
+        "input": {
+            "11111111-1111-1111-1111-000000000000_input0": {
+                "label": {
+                    "value": "Record Replay - input0"
+                },
+                "view_type": {
+                    "value": "document"
+                }
+            }
+        },
+        "output": {
+            "11111111-1111-1111-1111-000000000008_output0": {
+                "label": {
+                    "value": "Union - output0"
+                },
+                "view_type": {
+                    "value": "document"
+                }
+            }
+        },
+        "settings": {
+            "cache_pipelines": {
+                "value": []
+            },
+            "error_param_table": {
+                "value": []
+            },
+            "error_pipeline": {
+                "expression": false,
+                "value": null
+            },
+            "imports": {
+                "value": []
+            },
+            "param_table": {
+                "value": [
+                    {
+                        "capture": {
+                            "value": false
+                        },
+                        "data_type": {
+                            "value": "string"
+                        },
+                        "description": {
+                            "value": "This is a title page name of confluence"
+                        },
+                        "key": {
+                            "value": "title"
+                        },
+                        "required": {
+                            "value": true
+                        },
+                        "value": {
+                            "value": null
+                        }
+                    },
+                    {
+                        "capture": {
+                            "value": false
+                        },
+                        "data_type": {
+                            "value": "string"
+                        },
+                        "description": {
+                            "value": "This is a content body which need to post to the Confluence"
+                        },
+                        "key": {
+                            "value": "body"
+                        },
+                        "required": {
+                            "value": true
+                        },
+                        "value": {
+                            "value": null
+                        }
+                    }
+                ]
+            },
+            "suspendable": {
+                "value": false
+            },
+            "test_pipeline": {
+                "value": false
+            }
+        }
+    },
+    "render_map": {
+        "default_snaplex": null,
+        "detail_map": {
+            "11111111-1111-1111-1111-000000000000": {
+                "error": {},
+                "grid_x_int": 3,
+                "grid_y_int": 3,
+                "index": null,
+                "input": {},
+                "output": {},
+                "recommendation_id": null,
+                "rot_int": 0,
+                "rot_tail_int": 0,
+                "source": ""
+            },
+            "11111111-1111-1111-1111-000000000001": {
+                "error": {},
+                "grid_x_int": 4,
+                "grid_y_int": 3,
+                "index": null,
+                "input": {},
+                "output": {},
+                "recommendation_id": null,
+                "rot_int": 0,
+                "rot_tail_int": 0,
+                "source": ""
+            },
+            "11111111-1111-1111-1111-000000000002": {
+                "error": {},
+                "grid_x_int": 5,
+                "grid_y_int": 1,
+                "index": null,
+                "input": {},
+                "output": {},
+                "recommendation_id": null,
+                "rot_int": 0,
+                "rot_tail_int": 0,
+                "source": ""
+            },
+            "11111111-1111-1111-1111-000000000003": {
+                "error": {},
+                "grid_x_int": 5,
+                "grid_y_int": 2,
+                "index": 0,
+                "input": {},
+                "output": {},
+                "recommendation_id": "2aa00bdd-ce90-31af-80c0-fd1748c448c0_0",
+                "rot_int": 180,
+                "rot_tail_int": 180,
+                "source": "iris placeholder"
+            },
+            "11111111-1111-1111-1111-000000000004": {
+                "error": {},
+                "grid_x_int": 6,
+                "grid_y_int": 3,
+                "index": null,
+                "input": {},
+                "output": {},
+                "recommendation_id": null,
+                "rot_int": 0,
+                "rot_tail_int": 0,
+                "source": ""
+            },
+            "11111111-1111-1111-1111-000000000005": {
+                "error": {
+                    "error0": {
+                        "dx_int": 0,
+                        "dy_int": -1,
+                        "rot_int": 0
+                    }
+                },
+                "grid_x_int": 7,
+                "grid_y_int": 3,
+                "index": null,
+                "input": {},
+                "output": {},
+                "recommendation_id": null,
+                "rot_int": 0,
+                "rot_tail_int": 0,
+                "source": ""
+            },
+            "11111111-1111-1111-1111-000000000006": {
+                "error": {},
+                "grid_x_int": 8,
+                "grid_y_int": 2,
+                "index": null,
+                "input": {},
+                "output": {},
+                "recommendation_id": null,
+                "rot_int": 0,
+                "rot_tail_int": 0,
+                "source": ""
+            },
+            "11111111-1111-1111-1111-000000000007": {
+                "error": {},
+                "grid_x_int": 8,
+                "grid_y_int": 3,
+                "index": 0,
+                "input": {},
+                "output": {},
+                "recommendation_id": "bb4665c1-ecb3-6778-8aff-7dda5495623c_0",
+                "rot_int": 0,
+                "rot_tail_int": 0,
+                "source": "iris placeholder"
+            },
+            "11111111-1111-1111-1111-000000000008": {
+                "error": {},
+                "grid_x_int": 9,
+                "grid_y_int": 2,
+                "index": 1,
+                "input": {
+                    "input1": {
+                        "dx_int": 0,
+                        "dy_int": 1,
+                        "rot_int": 0
+                    }
+                },
+                "output": {},
+                "recommendation_id": "496ec01a-5f9d-547c-75bc-170a78bd59fe_0",
+                "rot_int": 0,
+                "rot_tail_int": 0,
+                "source": "iris placeholder"
+            }
+        },
+        "pan_x_num": 0,
+        "pan_y_num": 0,
+        "scale_ratio": 1
+    },
+    "snap_map": {
+        "11111111-1111-1111-1111-000000000000": {
+            "class_id": "com-snaplogic-snaps-transform-recordreplay",
+            "class_version": 1,
+            "instance_id": "11111111-1111-1111-1111-000000000000",
+            "property_map": {
+                "error": {
+                    "error_behavior": {
+                        "value": "fail"
+                    }
+                },
+                "info": {
+                    "label": {
+                        "value": "Record Replay"
+                    },
+                    "notes": {}
+                },
+                "input": {
+                    "input0": {
+                        "label": {
+                            "value": "input0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    }
+                },
+                "output": {
+                    "output0": {
+                        "label": {
+                            "value": "output0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    }
+                },
+                "settings": {
+                    "docCount": {
+                        "value": 10
+                    },
+                    "execution_mode": {
+                        "value": "Validate & Execute"
+                    },
+                    "pathExpr": {
+                        "expression": true,
+                        "value": "'sldb:///%s-%s-%s.json'.sprintf(encodeURIComponent(pipe.label), encodeURIComponent(snap.label), snap.instanceId)"
+                    },
+                    "replayOnly": {
+                        "value": false
+                    }
+                },
+                "view_serial": 100
+            }
+        },
+        "11111111-1111-1111-1111-000000000001": {
+            "class_id": "com-snaplogic-snaps-transform-conditional",
+            "class_version": 1,
+            "instance_id": "11111111-1111-1111-1111-000000000001",
+            "property_map": {
+                "error": {
+                    "error0": {
+                        "label": {
+                            "value": "error0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    },
+                    "error_behavior": {
+                        "value": "fail"
+                    }
+                },
+                "info": {
+                    "label": {
+                        "value": "Inputs mapping"
+                    },
+                    "notes": {}
+                },
+                "input": {
+                    "input0": {
+                        "label": {
+                            "value": "input0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    }
+                },
+                "output": {
+                    "output0": {
+                        "label": {
+                            "value": "output0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    }
+                },
+                "settings": {
+                    "conditionalTable": {
+                        "value": [
+                            {
+                                "conditionalExpression": {
+                                    "expression": true,
+                                    "value": "$.hasPath(\"toolUse\")"
+                                },
+                                "returnValue": {
+                                    "expression": true,
+                                    "value": "$toolUse.input"
+                                },
+                                "targetPath": {
+                                    "value": "$"
+                                }
+                            },
+                            {
+                                "conditionalExpression": {
+                                    "expression": true,
+                                    "value": "$.hasPath(\"function\")"
+                                },
+                                "returnValue": {
+                                    "expression": true,
+                                    "value": "$function.json_arguments"
+                                },
+                                "targetPath": {
+                                    "value": "$"
+                                }
+                            },
+                            {
+                                "conditionalExpression": {
+                                    "expression": true,
+                                    "value": "$.hasPath(\"functionCall\")"
+                                },
+                                "returnValue": {
+                                    "expression": true,
+                                    "value": "$functionCall.args"
+                                },
+                                "targetPath": {
+                                    "value": "$"
+                                }
+                            }
+                        ]
+                    },
+                    "defaultValueTable": {
+                        "value": {
+                            "defaultValue": {
+                                "expression": true,
+                                "value": null
+                            },
+                            "defaultValuePath": {
+                                "value": null
+                            }
+                        }
+                    },
+                    "evaluateAll": {
+                        "value": false
+                    },
+                    "execution_mode": {
+                        "value": "Validate & Execute"
+                    },
+                    "nullSafeAccess": {
+                        "value": false
+                    }
+                },
+                "view_serial": 100
+            }
+        },
+        "11111111-1111-1111-1111-000000000002": {
+            "class_id": "com-snaplogic-snaps-transform-datatransform",
+            "class_version": 4,
+            "instance_id": "11111111-1111-1111-1111-000000000002",
+            "property_map": {
+                "error": {
+                    "error0": {
+                        "label": {
+                            "value": "error0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    },
+                    "error_behavior": {
+                        "value": "fail"
+                    }
+                },
+                "info": {
+                    "label": {
+                        "value": "Map Title and content"
+                    },
+                    "notes": {}
+                },
+                "input": {
+                    "input0": {
+                        "label": {
+                            "value": "input0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    }
+                },
+                "output": {
+                    "output0": {
+                        "label": {
+                            "value": "output0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    }
+                },
+                "settings": {
+                    "execution_mode": {
+                        "value": "Disabled"
+                    },
+                    "nullSafeAccess": {
+                        "value": false
+                    },
+                    "passThrough": {
+                        "value": false
+                    },
+                    "transformations": {
+                        "value": {
+                            "mappingRoot": {
+                                "value": "$"
+                            },
+                            "mappingTable": {
+                                "value": [
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "$body.title + \" :  \" +  pipe.startTime"
+                                        },
+                                        "targetPath": {
+                                            "value": "$title"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "$body.body.storage.value"
+                                        },
+                                        "targetPath": {
+                                            "value": "$content"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "$parameter.title + \": \"  + pipe.startTime"
+                                        },
+                                        "targetPath": {
+                                            "value": "$title"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "$parameter.content"
+                                        },
+                                        "targetPath": {
+                                            "value": "$content"
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    }
+                },
+                "view_serial": 100
+            }
+        },
+        "11111111-1111-1111-1111-000000000003": {
+            "class_id": "com-snaplogic-snaps-transform-datatransform",
+            "class_version": 4,
+            "instance_id": "11111111-1111-1111-1111-000000000003",
+            "property_map": {
+                "error": {
+                    "error0": {
+                        "label": {
+                            "value": "error0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    },
+                    "error_behavior": {
+                        "value": "fail"
+                    }
+                },
+                "info": {
+                    "label": {
+                        "value": "Map Title and Body for confluence page creation"
+                    },
+                    "notes": {}
+                },
+                "input": {
+                    "input0": {
+                        "label": {
+                            "value": "input0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    }
+                },
+                "output": {
+                    "output0": {
+                        "label": {
+                            "value": "output0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    }
+                },
+                "settings": {
+                    "execution_mode": {
+                        "value": "Disabled"
+                    },
+                    "nullSafeAccess": {
+                        "value": false
+                    },
+                    "passThrough": {
+                        "value": false
+                    },
+                    "transformations": {
+                        "value": {
+                            "mappingRoot": {
+                                "value": "$"
+                            },
+                            "mappingTable": {
+                                "value": [
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "$parameter.title + \": \"  + pipe.startTime"
+                                        },
+                                        "targetPath": {
+                                            "value": "$title"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "$parameter.content"
+                                        },
+                                        "targetPath": {
+                                            "value": "$content"
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    }
+                },
+                "view_serial": 100
+            }
+        },
+        "11111111-1111-1111-1111-000000000004": {
+            "class_id": "com-snaplogic-snaps-transform-jsongenerator",
+            "class_version": 2,
+            "instance_id": "11111111-1111-1111-1111-000000000004",
+            "property_map": {
+                "error": {
+                    "error0": {
+                        "label": {
+                            "value": "error0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    },
+                    "error_behavior": {
+                        "value": "fail"
+                    }
+                },
+                "info": {
+                    "label": {
+                        "value": "Prepare content format for POST call "
+                    },
+                    "notes": {}
+                },
+                "input": {
+                    "input101": {
+                        "label": {
+                            "value": "input0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    }
+                },
+                "output": {
+                    "output0": {
+                        "label": {
+                            "value": "output0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    }
+                },
+                "settings": {
+                    "arrayElementsAsDocuments": {
+                        "value": true
+                    },
+                    "editable_content": {
+                        "value": "{\n  \"type\": \"page\",\n  \"title\": $title,\n  \"space\": {\n    \"key\": \"SP\"\n  },\n  \"body\": {\n    \"storage\": {\n      \"value\": $body,\n      \"representation\": \"storage\"\n    }\n  }\n}\n"
+                    },
+                    "execution_mode": {
+                        "value": "Validate & Execute"
+                    },
+                    "passThroughProp": {
+                        "value": false
+                    },
+                    "supportTypeExts": {
+                        "value": false
+                    }
+                },
+                "view_serial": 101
+            }
+        },
+        "11111111-1111-1111-1111-000000000005": {
+            "class_id": "com-snaplogic-snaps-apisuite-httpclient",
+            "class_version": 1,
+            "instance_id": "11111111-1111-1111-1111-000000000005",
+            "property_map": {
+                "account": {
+                    "account_ref": {
+                        "value": {
+                            "label": {
+                                "expression": false,
+                                "label": "Confluence_Cloud_Account_working",
+                                "value": "Confluence_Cloud_Account_working"
+                            },
+                            "ref_class_id": {
+                                "value": "com-snaplogic-snaps-apisuite-accounts-basicauthaccount"
+                            },
+                            "ref_id": {
+                                "expression": false,
+                                "value": null
+                            }
+                        }
+                    }
+                },
+                "error": {
+                    "error0": {
+                        "label": {
+                            "value": "error0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    },
+                    "error_behavior": {
+                        "value": "continue"
+                    }
+                },
+                "info": {
+                    "label": {
+                        "value": "HTTP Client"
+                    },
+                    "notes": {}
+                },
+                "input": {
+                    "input0": {
+                        "label": {
+                            "value": "input0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    }
+                },
+                "output": {
+                    "outputResponse": {
+                        "label": {
+                            "value": "Response"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    }
+                },
+                "settings": {
+                    "clientProperties": {
+                        "value": {
+                            "connection": {
+                                "value": {
+                                    "connTimeout": {
+                                        "value": 30
+                                    },
+                                    "cookiePolicy": {
+                                        "value": "RFC Lax"
+                                    },
+                                    "diskStagingProp": {
+                                        "value": false
+                                    },
+                                    "readTimeout": {
+                                        "value": 900
+                                    },
+                                    "trustAllCerts": {
+                                        "value": false
+                                    }
+                                }
+                            },
+                            "outputProps": {
+                                "value": {
+                                    "errorRespToErrorview": {
+                                        "value": true
+                                    },
+                                    "extractEntity": {
+                                        "value": false
+                                    },
+                                    "extractEntityPath": {
+                                        "expression": true,
+                                        "value": "$.entity"
+                                    },
+                                    "includeCookies": {
+                                        "value": false
+                                    },
+                                    "responseType": {
+                                        "value": "JSON"
+                                    }
+                                }
+                            },
+                            "redirects": {
+                                "value": {
+                                    "allowCircularRedirect": {
+                                        "value": false
+                                    },
+                                    "allowRelativeRedirect": {
+                                        "value": true
+                                    },
+                                    "followOriginalMethod": {
+                                        "value": false
+                                    },
+                                    "followRedirection": {
+                                        "value": true
+                                    },
+                                    "maxRedirect": {
+                                        "expression": false,
+                                        "value": 10
+                                    }
+                                }
+                            },
+                            "retry": {
+                                "value": {
+                                    "autoRetry429": {
+                                        "value": true
+                                    },
+                                    "maxRetry": {
+                                        "value": 5
+                                    },
+                                    "retryCondition": {
+                                        "value": "Connection Errors"
+                                    },
+                                    "retryInterval": {
+                                        "value": 3
+                                    },
+                                    "useRetryAfterHeader": {
+                                        "value": true
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    "enableDebug": {
+                        "value": true
+                    },
+                    "execution_mode": {
+                        "value": "Validate & Execute"
+                    },
+                    "formEncodeSpace": {
+                        "value": true
+                    },
+                    "header": {
+                        "value": [
+                            {
+                                "headerNameProp": {
+                                    "expression": false,
+                                    "value": "Accept"
+                                },
+                                "headerValProp": {
+                                    "expression": false,
+                                    "value": "application/json"
+                                }
+                            },
+                            {
+                                "headerNameProp": {
+                                    "expression": false,
+                                    "value": "Content-Type"
+                                },
+                                "headerValProp": {
+                                    "expression": false,
+                                    "value": "application/json"
+                                }
+                            }
+                        ]
+                    },
+                    "httpEntity": {
+                        "value": {
+                            "binaryFile": {
+                                "expression": false,
+                                "value": null
+                            },
+                            "entityType": {
+                                "value": "raw"
+                            },
+                            "multipartForm": {
+                                "value": [
+                                    {
+                                        "partContentType": {
+                                            "expression": false,
+                                            "value": null
+                                        },
+                                        "partKey": {
+                                            "expression": false,
+                                            "value": null
+                                        },
+                                        "partType": {
+                                            "value": "Text"
+                                        },
+                                        "partValue": {
+                                            "expression": false,
+                                            "value": null
+                                        }
+                                    }
+                                ]
+                            },
+                            "multipartSubtype": {
+                                "expression": false,
+                                "value": "form-data"
+                            },
+                            "rawEntity": {
+                                "expression": true,
+                                "value": "$"
+                            },
+                            "urlEncodedForm": {
+                                "value": []
+                            }
+                        }
+                    },
+                    "httpMethod": {
+                        "expression": false,
+                        "value": "POST"
+                    },
+                    "pagination": {
+                        "value": {
+                            "hasNext": {
+                                "expression": true,
+                                "value": null
+                            },
+                            "maxPage": {
+                                "expression": false,
+                                "value": null
+                            },
+                            "nextUrl": {
+                                "expression": true,
+                                "value": null
+                            },
+                            "overrideHeaders": {
+                                "value": [
+                                    {
+                                        "overrideHeaderName": {
+                                            "expression": false,
+                                            "value": null
+                                        },
+                                        "overrideHeaderValue": {
+                                            "expression": true,
+                                            "value": null
+                                        }
+                                    }
+                                ]
+                            },
+                            "overrideParams": {
+                                "value": [
+                                    {
+                                        "overrideParamName": {
+                                            "expression": false,
+                                            "value": null
+                                        },
+                                        "overrideParamValue": {
+                                            "expression": true,
+                                            "value": null
+                                        }
+                                    }
+                                ]
+                            },
+                            "overrideURI": {
+                                "value": false
+                            },
+                            "paginationInterval": {
+                                "value": 0
+                            },
+                            "reuseParamsForPagination": {
+                                "value": false
+                            }
+                        }
+                    },
+                    "preventURLEncoding": {
+                        "value": false
+                    },
+                    "queryParam": {
+                        "value": []
+                    },
+                    "uri": {
+                        "expression": false,
+                        "value": "https://sameerasalamshaikh.atlassian.net/wiki/rest/api/content"
+                    }
+                },
+                "view_serial": 100
+            }
+        },
+        "11111111-1111-1111-1111-000000000006": {
+            "class_id": "com-snaplogic-snaps-transform-datatransform",
+            "class_version": 4,
+            "instance_id": "11111111-1111-1111-1111-000000000006",
+            "property_map": {
+                "error": {
+                    "error0": {
+                        "label": {
+                            "value": "error0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    },
+                    "error_behavior": {
+                        "value": "fail"
+                    }
+                },
+                "info": {
+                    "label": {
+                        "value": "Error"
+                    },
+                    "notes": {}
+                },
+                "input": {
+                    "input0": {
+                        "label": {
+                            "value": "input0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    }
+                },
+                "output": {
+                    "output0": {
+                        "label": {
+                            "value": "output0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    }
+                },
+                "settings": {
+                    "execution_mode": {
+                        "value": "Validate & Execute"
+                    },
+                    "nullSafeAccess": {
+                        "value": false
+                    },
+                    "passThrough": {
+                        "value": false
+                    },
+                    "transformations": {
+                        "value": {
+                            "mappingRoot": {
+                                "value": "$"
+                            },
+                            "mappingTable": {
+                                "value": [
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "$error"
+                                        },
+                                        "targetPath": {
+                                            "expression": true,
+                                            "value": "$error"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "$reason"
+                                        },
+                                        "targetPath": {
+                                            "expression": true,
+                                            "value": "$reason"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "$resolution"
+                                        },
+                                        "targetPath": {
+                                            "expression": true,
+                                            "value": "$resolution"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "$status_code"
+                                        },
+                                        "targetPath": {
+                                            "expression": true,
+                                            "value": "$status_code"
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    }
+                },
+                "view_serial": 100
+            }
+        },
+        "11111111-1111-1111-1111-000000000007": {
+            "class_id": "com-snaplogic-snaps-transform-datatransform",
+            "class_version": 4,
+            "instance_id": "11111111-1111-1111-1111-000000000007",
+            "property_map": {
+                "error": {
+                    "error0": {
+                        "label": {
+                            "value": "error0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    },
+                    "error_behavior": {
+                        "value": "fail"
+                    }
+                },
+                "info": {
+                    "label": {
+                        "value": "Success"
+                    },
+                    "notes": {}
+                },
+                "input": {
+                    "input0": {
+                        "label": {
+                            "value": "input0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    }
+                },
+                "output": {
+                    "output0": {
+                        "label": {
+                            "value": "output0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    }
+                },
+                "settings": {
+                    "execution_mode": {
+                        "value": "Validate & Execute"
+                    },
+                    "nullSafeAccess": {
+                        "value": false
+                    },
+                    "passThrough": {
+                        "value": false
+                    },
+                    "transformations": {
+                        "value": {
+                            "mappingRoot": {
+                                "value": "$"
+                            },
+                            "mappingTable": {
+                                "value": [
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "$_debug.response.responseStatus"
+                                        },
+                                        "targetPath": {
+                                            "value": "status"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "$entity.space.id"
+                                        },
+                                        "targetPath": {
+                                            "value": "confluence_space_id"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "$_debug.response.timeStamp"
+                                        },
+                                        "targetPath": {
+                                            "value": "timestamp"
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    }
+                },
+                "view_serial": 100
+            }
+        },
+        "11111111-1111-1111-1111-000000000008": {
+            "class_id": "com-snaplogic-snaps-flow-union",
+            "class_version": 2,
+            "instance_id": "11111111-1111-1111-1111-000000000008",
+            "property_map": {
+                "error": {
+                    "error0": {
+                        "label": {
+                            "value": "error0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    },
+                    "error_behavior": {
+                        "value": "fail"
+                    }
+                },
+                "info": {
+                    "label": {
+                        "value": "Union"
+                    }
+                },
+                "input": {
+                    "input0": {
+                        "label": {
+                            "value": "input0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    },
+                    "input1": {
+                        "label": {
+                            "value": "input1"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    }
+                },
+                "output": {
+                    "output0": {
+                        "label": {
+                            "value": "output0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    }
+                },
+                "settings": {
+                    "execution_mode": {
+                        "value": "Validate & Execute"
+                    }
+                },
+                "view_serial": 100
+            }
+        }
+    }
+}
