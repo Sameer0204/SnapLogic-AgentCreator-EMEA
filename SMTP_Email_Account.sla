@@ -1,0 +1,51 @@
+{
+    "class_id": "com-snaplogic-snaps-email-smtpaccount",
+    "class_version": 1,
+    "migration_metadata": {
+        "source_org": "ConnectFasterInc"
+    },
+    "property_map": {
+        "info": {
+            "label": {
+                "value": "SMTP_Email_Account"
+            },
+            "notes": {
+                "value": null
+            }
+        },
+        "settings": {
+            "connectionTimeout": {
+                "value": 60000
+            },
+            "emailId": {
+                "value": "sameerasalamshaikh@gmail.com"
+            },
+            "mailProperties": {
+                "value": []
+            },
+            "password": {
+                "fp": "bacf43a601ec5c613eda763c1622b2bf3665be305565115533de51ad04ae0c38",
+                "key": "account-cloud-managed-64ee0e897d399540df22a9a9-2023-08-29T15:28:11-377840+00:00",
+                "sym_iv": "HzBn3gGVLOC/6EG36mRu1Q==",
+                "sym_key": "ygTGiwShYMk045yL0mf0ODmNXWIIaPyNUvW5ETykgXpfLUltc+BWL43aUpOaII1HqQY315Xtp22PhTlJa6BZotFZsxSsPmQb1QeQ1ClJq95f7hDh8ezC4OfaGQjyT2P6u4WAoaN4wTWnE+o3w/b4IikFg9YtXeyjcI6RlPvXNJFOt2PNVp1ph/uSxMXqructhRXkGDm4VJa/7palHckuq0yWClmUqt/NRNy4SbpgmEkJxslCalsZi+R+mevQs0sL9UCZDKzF6RUzF1J6AI71I02l/z2H25fJQBzEt6wRm5cjKi7sByGTKAxHA8/e7YO8Kscvu3WXAzzwgZOr4Js18Q==",
+                "value": "E7u9pRPPN/gmjFeN17bcR/WoM/ejiqLY++OXCirLlxc="
+            },
+            "port": {
+                "value": "587"
+            },
+            "readTimeout": {
+                "value": 60000
+            },
+            "secureConnection": {
+                "value": "STARTTLS"
+            },
+            "serverDomain": {
+                "value": "smtp.gmail.com"
+            },
+            "writeTimeout": {
+                "value": 60000
+            }
+        },
+        "view_serial": 100
+    }
+}
